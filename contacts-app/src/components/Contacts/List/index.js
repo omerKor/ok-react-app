@@ -17,7 +17,7 @@ function List({ contacts }) {
             <ul className='list'>
                 {filtered.map((contact, i) => (
                     <li key={i}>
-                        {contact.fullName} / <a href='#'>{contact.phoneNumber}</a> 
+                        {contact.fullName} / {contact.phoneNumber}
                     </li>
                 ))}
             </ul>
