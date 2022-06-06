@@ -1,0 +1,42 @@
+.Container{
+    width: 400px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list{
+    margin-bottom: 15px;
+}
+
+.list > li{
+    background-color: blanchedalmond;
+    padding: 5px;
+    margin: 2px 0;
+
+}
+button{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    color: #FFF;
+    font-weight: 900;
+}
